@@ -30,7 +30,7 @@ Esta API é protegida. Para usar os endpoints de pedidos, você precisa de um "t
 1. Faça um **POST** para `http://localhost:3000/login`.
 2. No corpo (Body) envie: 
    ```json
-   { "usuario": "postgres", "senha": "123456" }
+   { "usuario": "postgres", "senha": "1998" }
 3. Copie o token que a API vai te devolver.
 4. Nas outras rotas(como listar pedidos), use esse token no cabeçalho (Header) como Bearer Token.
 
